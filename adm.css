@@ -1,20 +1,27 @@
-/* Main */
-
+/* Main Section */
 main {
   background-image: url(assets/fundo2.svg);
   background-size: cover;
   padding: 50px 0;
 }
 
+.dashboard {
+  font-family: "staatliches", sans-serif;
+  color: white;
+}
+
+.dashboard h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+/* Navigation Button */
 .buttonnav {
   color: white;
   text-decoration: none;
 }
 
-/*  Form */
-
+/* Form Styling */
 form {
-  font-family: "public sans", sans-serif;
   max-width: 330px;
   padding: 15px;
   margin: auto;
@@ -29,6 +36,20 @@ form img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Navigation Button */
+.navigation-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
 }
 
 form h1 {
@@ -61,6 +82,7 @@ form h1 {
   color: #333;
 }
 
+/* Button Styling */
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
@@ -72,7 +94,7 @@ form h1 {
   border-color: #0056b3;
 }
 
-/* Main */
+/* Form Container */
 .form-container {
   background-color: white;
   padding: 30px;
@@ -82,6 +104,7 @@ form h1 {
   margin: auto;
 }
 
+/* Section Header */
 h2 {
   font-family: "Staatliches", sans-serif;
   color: #006c72;
@@ -89,6 +112,23 @@ h2 {
   border-radius: 5px;
   padding: 10px;
 }
+
+#secao {
+  border-radius: 20PX;
+  font-family: "Staatliches", sans-serif;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+th {
+  font-family: "Staatliches", sans-serif;
+  color: white;
+  background-color: #006c72;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* Footer */
 footer {
@@ -110,17 +150,17 @@ footer span {
   color: #004d4d;
   font-size: 14px;
   flex-grow: 5;
-  justify-items: center;
+  text-align: center;
 }
 
 footer img {
   max-height: 70px;
-  margin-right: 20px; /* Ajustado para espaçamento mais consistente */
+  margin-right: 20px;
 }
 
 footer .nav {
   display: flex;
-  justify-content: flex-end; /* Mantém os ícones alinhados à direita */
+  justify-content: flex-end;
   align-items: center;
 }
 

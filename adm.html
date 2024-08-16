@@ -106,43 +106,100 @@
         </div>
       </nav>
     </header>
+
+  <main>
+    <div id="secao" class="container mt-5">
+      <h2 class="dashbord">Título da seção</h2>
+      <div class="table-responsive small">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Código</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Seção</th>
+              <th scope="col">Valor</th>
+              <th scope="col">Vendas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#1</td>
+              <td>Camarão ao leite de coco</td>
+              <td>Almoço</td>
+              <td>R$29,99</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>#2</td>
+              <td>Hambúrguer de Maminha</td>
+              <td>Lanche</td>
+              <td>R$29,99</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>#3</td>
+              <td>Refrigerante</td>
+              <td>Bebidas</td>
+              <td>R$7,99</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>#4</td>
+              <td>Sucos Naturais</td>
+              <td>Bebidas</td>
+              <td>R$9,99</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>#5</td>
+              <td>Tilápia Frita</td>
+              <td>Almoço</td>
+              <td>R$129,99</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
     <div class="container mt-5">
-        <div class="form-container">
-            <h2 class="mb-4 text-center"><i class="bi bi-plus-circle"></i> Cadastrar Novo Item</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="itemName" class="form-label"><i class="bi bi-box-seam"></i> Nome do Item</label>
-                    <input type="text" class="form-control" id="itemName" placeholder="Nome do item">
-                </div>
+      <div class="form-container">
+        <h2 class="mb-4 text-center"><i class="bi bi-plus-circle"></i> Cadastrar Novo Item</h2>
+        <form>
+          <div class="mb-3">
+            <label for="itemName" class="form-label"><i class="bi bi-box-seam"></i> Nome do Item</label>
+            <input type="text" class="form-control" id="itemName" placeholder="Nome do item">
+          </div>
 
-                <div class="mb-3">
-                    <label for="itemDescription" class="form-label"><i class="bi bi-card-text"></i> Descrição</label>
-                    <textarea class="form-control" id="itemDescription" rows="3" placeholder="Descrição do item"></textarea>
-                </div>
+          <div class="mb-3">
+            <label for="itemDescription" class="form-label"><i class="bi bi-card-text"></i> Descrição</label>
+            <textarea class="form-control" id="itemDescription" rows="3" placeholder="Descrição do item"></textarea>
+          </div>
 
-                <div class="mb-3">
-                    <label for="itemPrice" class="form-label"><i class="bi bi-currency-dollar"></i> Preço</label>
-                    <input type="number" class="form-control" id="itemPrice" placeholder="Preço do item">
-                </div>
+          <div class="mb-3">
+            <label for="itemPrice" class="form-label"><i class="bi bi-currency-dollar"></i> Preço</label>
+            <input type="number" class="form-control" id="itemPrice" placeholder="Preço do item">
+          </div>
 
-                <div class="mb-3">
-                    <label for="itemCategory" class="form-label"><i class="bi bi-list"></i> Categoria</label>
-                    <select class="form-select" id="itemCategory">
-                        <option selected>Selecione a categoria</option>
-                        <option value="1">Almoço</option>
-                        <option value="2">Lanches</option>
-                        <option value="3">Bebidas</option>
-                    </select>
-                </div>
+          <div class="mb-3">
+            <label for="itemCategory" class="form-label"><i class="bi bi-list"></i> Categoria</label>
+            <select class="form-select" id="itemCategory">
+              <option selected>Selecione a categoria</option>
+              <option value="1">Almoço</option>
+              <option value="2">Lanches</option>
+              <option value="3">Bebidas</option>
+            </select>
+          </div>
 
-                <div class="mb-3">
-                    <label for="itemImage" class="form-label"><i class="bi bi-image"></i> Imagem do Item</label>
-                    <input class="form-control" type="file" id="itemImage">
-                </div>
+          <div class="mb-3">
+            <label for="itemImage" class="form-label"><i class="bi bi-image"></i> Imagem do Item</label>
+            <input class="form-control" type="file" id="itemImage">
+          </div>
 
-                <button type="submit" class="btn btn-primary w-100"><i class="bi bi-save"></i> Cadastrar</button>
-            </form>
-        </div>
+          <button type="submit" class="btn btn-primary w-100"><i class="bi bi-save"></i> Cadastrar</button>
+        </form>
+      </div>
+    </div>
+</main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <div class="col-md-4 d-flex align-items-center">
         <a href="#cabecalho"><img src="assets/logo.svg" alt="Logo Beira-Mar"></a>
@@ -157,7 +214,7 @@
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous">
+  </script>
 </body>
 </html>

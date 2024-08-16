@@ -1,0 +1,282 @@
+/* Main */
+main {
+  background-image: url(assets/fundo2.svg);
+  background-size: cover;
+  padding: 50px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.buttonnav {
+  color: white;
+  text-decoration: none;
+}
+
+/* Almoço */
+.menu-almoco {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.menu-almoco h2 {
+  background-color: #f4a92c;
+  border-radius: 20px;
+  font-family: "Staatliches", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 60px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: #006c72;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-color: #f4a92c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #f4a92c;
+}
+
+.card-text {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-body h4 {
+  font-size: 0.875rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.add {
+  font-family: "inter", sans-serif;
+  background-color: darkgreen;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: auto;
+}
+.remove {
+  font-family: "inter", sans-serif;
+  background-color: darkred;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: auto;
+}
+
+.add i,
+.remove i {
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  margin-right: 8px;
+}
+
+.add i:hover,
+.remove i:hover {
+  color: black;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Lanche */
+.menu-lanche {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.menu-lanche h2 {
+  background-color: #f4a92c;
+  border-radius: 20px;
+  font-family: "Staatliches", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 60px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: #006c72;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-color: #f4a92c;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Defina uma altura fixa para as imagens */
+  object-fit: cover;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Bebida */
+.menu-bebidas {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.menu-bebidas h2 {
+  background-color: #f4a92c;
+  border-radius: 20px;
+  font-family: "Staatliches", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 60px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: #006c72;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-color: #f4a92c;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.5s ease-in-out; /* Add this line */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Add this line */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 150px; /* Ajuste a altura das imagens */
+  object-fit: cover;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Pedido */
+
+.pedido {
+  display: flex;
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.numeropedido {
+  background-color: #f4a92c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out; /* Add this line */
+}
+
+.numeropedido:hover {
+  transform: scale(1.2); /* Add this line */
+}
+
+/* Menu */
+
+.menu {
+  background-color: #f4a92c;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Garante que o conteúdo interno seja disposto em coluna */
+}

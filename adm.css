@@ -1,0 +1,139 @@
+/* Main */
+
+main {
+  background-image: url(assets/fundo2.svg);
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.buttonnav {
+  color: white;
+  text-decoration: none;
+}
+
+/*  Form */
+
+form {
+  font-family: "public sans", sans-serif;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+form img {
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Staatliches", sans-serif;
+}
+
+.form-floating {
+  margin-bottom: 15px;
+}
+
+.form-floating label {
+  color: #666;
+}
+
+.form-floating input {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.form-check {
+  margin-bottom: 15px;
+}
+
+.form-check label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Main */
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  font-family: "Staatliches", sans-serif;
+  color: #006c72;
+  background-color: #f4a92c;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #f4a92c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .col-md-4 {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+footer span {
+  color: #004d4d;
+  font-size: 14px;
+  flex-grow: 5;
+  justify-items: center;
+}
+
+footer img {
+  max-height: 70px;
+  margin-right: 20px; /* Ajustado para espaçamento mais consistente */
+}
+
+footer .nav {
+  display: flex;
+  justify-content: flex-end; /* Mantém os ícones alinhados à direita */
+  align-items: center;
+}
+
+footer .nav li {
+  margin-left: 20px;
+}
+
+footer .nav li a {
+  color: #00a0a8;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+footer .nav li a:hover {
+  color: #006c72;
+}

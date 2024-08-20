@@ -3,21 +3,7 @@ main {
   background-size: cover;
   background-attachment: fixed;
   padding: 50px 0;
-  min-height: calc(
-    100vh - 120px
-  ); /* 120px é a altura aproximada do header + footer */
   box-sizing: border-box;
-}
-@media (max-width: 768px) {
-  main {
-    height: 100vh;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    min-height: calc(100vh - 120px);
-  }
 }
 
 html,

@@ -25,7 +25,7 @@ form {
   max-width: 380px; /* Ajusta a largura máxima do formulário */
   margin: 20px auto; /* Garante centralização */
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

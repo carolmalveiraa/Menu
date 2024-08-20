@@ -3,7 +3,9 @@
 main {
   background-image: url(assets/fundo3.svg);
   background-size: cover;
+  background-attachment: fixed;
   padding: 50px 0;
+  height: 100%;
 }
 @media (max-width: 768px) {
   main {

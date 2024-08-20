@@ -2,133 +2,88 @@
 main {
   background-image: url(assets/fundo2.svg);
   background-size: cover;
+  background-attachment: fixed;
   padding: 50px 0;
+  height: 100%;
 }
 
+/* Dashboard Heading */
 .dashboard {
-  font-family: "staatliches", sans-serif;
+  font-family: "Staatliches", sans-serif;
   color: white;
-}
-
-.dashboard h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-/* Navigation Button */
-.buttonnav {
-  color: white;
-  text-decoration: none;
-}
-
-/* Form Styling */
-form {
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px;
-}
-
-form img {
-  margin-bottom: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Navigation Button */
-.navigation-button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.navigation-button:hover {
-  background-color: #0056b3;
-}
-
-form h1 {
   text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-  font-family: "Staatliches", sans-serif;
+  margin-bottom: 30px;
 }
 
-.form-floating {
-  margin-bottom: 15px;
-}
-
-.form-floating label {
-  color: #666;
-}
-
-.form-floating input {
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-.form-check {
-  margin-bottom: 15px;
-}
-
-.form-check label {
-  font-size: 0.9rem;
-  color: #333;
-}
-
-/* Button Styling */
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-  font-size: 1rem;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-
-/* Form Container */
-.form-container {
-  background-color: white;
-  padding: 30px;
+/* Table Styling */
+.table-responsive {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  margin: auto;
-}
-
-/* Section Header */
-h2 {
-  font-family: "Staatliches", sans-serif;
-  color: #006c72;
-  background-color: #f4a92c;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-#secao {
-  border-radius: 20PX;
-  font-family: "Staatliches", sans-serif;
-  color: white;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 th {
   font-family: "Staatliches", sans-serif;
   color: white;
   background-color: #006c72;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
+td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.875rem;
+}
+
+/* Form Styling */
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #006c72;
+  border-color: #006c72;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #004d4d;
+  border-color: #004d4d;
+}
+
+/* Section Header */
+h2 {
+  font-family: "Staatliches", sans-serif;
+  color: #004d4d;
+  background-color: #f4a92c;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Footer */
 footer {
@@ -138,6 +93,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer .col-md-4 {
@@ -176,4 +134,14 @@ footer .nav li a {
 
 footer .nav li a:hover {
   color: #006c72;
+}
+
+/* Buttonnav Customization */
+.buttonnav {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonnav:hover {
+  text-decoration: underline;
 }

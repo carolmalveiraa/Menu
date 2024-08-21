@@ -356,6 +356,9 @@ main {
 }
 
 .secaoopcoes li {
+  font-family: "public sans", sans-serif;
+  list-style-type: none;
+  color: #fff;
   transition: transform 0.3s ease;
 }
 

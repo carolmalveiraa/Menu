@@ -326,7 +326,12 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Added semi-transparent background color */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Added semi-transparent background color */
   z-index: -1; /* Move the pseudo-element behind the content */
 }
 
@@ -366,10 +371,13 @@ main {
   margin-bottom: 5px;
   margin-top: 5px;
   padding-left: 0;
+  text-decoration: underline;
 }
 
 .secaoopcoes li:hover {
-  transform: translateX(10px); /* Move o elemento 10 pixels para a direita ao passar o mouse */
+  transform: translateX(
+    10px
+  ); /* Move o elemento 10 pixels para a direita ao passar o mouse */
 }
 
 .mascote-img {
@@ -388,7 +396,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 footer .col-md-4 {

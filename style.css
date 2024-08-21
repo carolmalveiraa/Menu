@@ -357,6 +357,15 @@ main {
 
 .secaoopcoes li {
   transition: transform 0.3s ease;
+  font-family: "public sans", sans-serif;
+  list-style-type: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 0;
 }
 
 .secaoopcoes li:hover {

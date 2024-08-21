@@ -1,5 +1,4 @@
 /* Main */
-
 main {
   background-image: url(assets/fundo3.svg);
   background-size: cover;
@@ -7,23 +6,18 @@ main {
   padding: 50px 0;
   height: 100%;
 }
+
 @media (max-width: 768px) {
   main {
     height: 100vh;
   }
 }
 
-.buttonnav {
-  color: white;
-  text-decoration: none;
-}
-
-/*  Form */
-
+/* Form */
 form {
   width: 100%;
-  max-width: 380px; /* Ajusta a largura máxima do formulário */
-  margin: 20px auto; /* Garante centralização */
+  max-width: 380px;
+  margin: 20px auto;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -84,33 +78,23 @@ form h1 {
   color: #333;
 }
 
-.form-floating label {
-  color: #666;
-}
-
-.form-floating input {
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
   .navbar-nav .nav-link {
-    font-size: 0.9rem; /* Reduz tamanho do texto do menu */
+    font-size: 0.9rem;
   }
 
   footer .nav li a {
-    font-size: 1.5rem; /* Reduz tamanho dos ícones no rodapé */
+    font-size: 1.5rem;
   }
 
   form {
-    max-width: 100%; /* Garante que o formulário ocupe todo o espaço em telas pequenas */
-    padding: 10px; /* Ajusta o padding em telas pequenas */
+    max-width: 100%;
+    padding: 10px;
   }
 
   .btn-primary {
-    font-size: 1rem; /* Ajusta o tamanho do texto do botão em telas pequenas */
+    font-size: 1rem;
     padding: 8px;
   }
 }

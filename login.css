@@ -105,12 +105,13 @@ form h1 {
   }
 
   form {
-    max-width: 100%; /* Garante que o formulário ocupe todo o espaço em telas pequenas */
-    padding: 10px; /* Ajusta o padding em telas pequenas */
+    max-width: 100%; 
+    padding: 10px;
+    background-color: white; 
   }
 
   .btn-primary {
-    font-size: 1rem; /* Ajusta o tamanho do texto do botão em telas pequenas */
+    font-size: 1rem;
     padding: 8px;
   }
 }

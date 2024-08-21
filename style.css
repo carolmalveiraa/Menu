@@ -21,14 +21,15 @@ nav .nav-link.active {
   border-radius: 5px;
 }
 
-.buttonnav {
+.buttonnav,
+.login,
+.sign {
   color: white;
   text-decoration: none;
 }
 
 .login,
 .sign {
-  color: white;
   background-color: #00a6b0;
   border: none;
   padding: 10px 20px;
@@ -37,12 +38,6 @@ nav .nav-link.active {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   margin-right: 15px;
-}
-
-.login:hover,
-.sign:hover {
-  background-color: #008c96;
-  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
 }
 
 .buttonnav {
@@ -269,8 +264,8 @@ main {
 }
 
 .delivery:hover {
-  transform: scale(1.05); /* Added scale transform on hover */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Added larger box-shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /
 }
 
 .delivery h3 {
@@ -279,12 +274,52 @@ main {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
-  transition: color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+  transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .delivery h3:hover {
-  color: #004d4d; /* Darker color on hover */
-  transform: scale(1.1); /* Added scale transform on hover */
+  color: #004d4d; 
+  /* Nav */
+  nav {
+    background-color: #006c72;
+    font-family: "Staatliches", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  nav .nav-link {
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav .nav-link:hover {
+    background-color: #00a6b0;
+    border-radius: 5px;
+    color: #fff; /* Garante que o texto fique branco */
+  }
+  
+  nav .nav-link.active {
+    background-color: #00a0a8;
+    border-radius: 5px;
+  }
+  
+  .buttonnav,
+  .login,
+  .sign {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .login,
+  .sign {
+    background-color: #00a6b0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 15px;
+  }  transform: scale(1.1); 
 }
 
 .delivery p {

@@ -7,11 +7,6 @@ main {
   padding: 50px 0;
   height: 100%;
 }
-@media (max-width: 768px) {
-  main {
-    height: 100vh;
-  }
-}
 
 .buttonnav {
   color: white;
@@ -94,8 +89,10 @@ form h1 {
   padding: 10px;
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 768px) {
+  main {
+    height: 100%;
+  }
   .navbar-nav .nav-link {
     font-size: 0.9rem; /* Reduz tamanho do texto do menu */
   }
@@ -105,9 +102,9 @@ form h1 {
   }
 
   form {
-    max-width: 100%; 
+    max-width: 100%;
     padding: 10px;
-    background-color: white; 
+    background-color: white;
   }
 
   .btn-primary {
